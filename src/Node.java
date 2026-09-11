@@ -7,5 +7,9 @@ public class Node {
         this.siguiente = null;
     }
 
+    @Override
+    public String toString() {
+        return "Node{dato=" + dato + '}';
+    }
 
 }
